@@ -1,0 +1,39 @@
+ html{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        max-width: 100%;
+    }
+    .userForm{
+        /* width: 35%; */
+    }
+    .userTable{
+        /* width: 65%; */
+    }
+    
+    th,
+    td {
+        border: 1px solid #cecfd5;
+        padding: 10px 10px;
+    }
+
+    #edit{
+        background-color: green;
+        color: white;
+        border: 1px solid green;
+        border-radius: 3px;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    #delete{
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+        border-radius: 3px;
+        padding: 3px;
+        cursor: pointer;
+    }
